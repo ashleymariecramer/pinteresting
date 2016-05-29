@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  root "pages#home"
+  get "about" =>"pages#about" #creates about_path which can be used to link to pages within your own site.
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
