@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.2.4'
+ruby '2.3.0'
 
 gem 'rails', '4.2.6'
 gem 'sass-rails', '~> 5.0' # for stylesheets
@@ -9,6 +9,7 @@ gem 'jquery-rails' # Use jquery as the JavaScript library
 gem 'turbolinks' # makes following links in your web application faster.
 gem 'jbuilder', '~> 2.0' # Build JSON APIs with ease.
 gem 'bootstrap-sass'
+gem 'devise', '~> 4.1'
 
 group :development, :test do
   gem 'sqlite3'
