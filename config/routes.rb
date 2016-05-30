@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   root "pages#home"
   get "about" =>"pages#about" #creates about_path which can be used to link to pages within your own site.
 
