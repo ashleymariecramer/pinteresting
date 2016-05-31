@@ -6,11 +6,12 @@ gem 'sass-rails', '~> 5.0' # for stylesheets
 gem 'uglifier', '>= 1.3.0' # Use as compressor for JavaScript assets
 gem 'coffee-rails', '~> 4.1.0' # for .coffee assets and views
 gem 'jquery-rails' # Use jquery as the JavaScript library
-gem 'turbolinks' # makes following links in your web application faster.
 gem 'jbuilder', '~> 2.0' # Build JSON APIs with ease.
 gem 'bootstrap-sass'
 gem 'devise', '~> 4.1'
 gem 'paperclip', '~> 4.0'
+gem 'aws-sdk', '< 2.0'
+gem 'masonry-rails', '~> 0.2.0'
 
 group :development, :test do
   gem 'sqlite3'
