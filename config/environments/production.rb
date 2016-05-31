@@ -77,6 +77,10 @@ Rails.application.configure do
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
 
+  #Required for error message Could not run identity command
+  Paperclip.options[:image_magick_path] = "/opt/ImageMagick/bin"
+  Paperclip.options[:command_path] = "/opt/ImageMagick/bin"
+
   # Required for Heroku
   # Note to set this to your actual host
   config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
